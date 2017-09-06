@@ -1,11 +1,6 @@
 # **Finding Lane Lines on the Road** 
-
 ## Writeup
-
----
-
-**Finding Lane Lines on the Road**
-
+The goal is to identify the left and right line lanes on the road using pre-recorded video clips. The pipeline could be able to work with real-time streams as well but it out of scope in this project. All three video clips are daytime and colour recordings but the resolutions differ. I created a pipeline that identifies which resolution is used and adapts to it automatically so it can be used freely with any of the three given test clips.
 
 [//]: # (Image References)
 
@@ -15,7 +10,7 @@
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. The pipeline
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
