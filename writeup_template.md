@@ -31,3 +31,5 @@ If no lane lines can be detected for a long time the statistics might go off and
 ### 3. Possible improvements
 
 At the moment the vertices are hard-coded in the class which is not right. It should be assigned as an external parameter but for the sake of convinience in the testing/validating I choose to do it this way (but the set_roi function is also implemented and can be called by the user).
+
+It must be tested how it works on very windy roads. It is possible that the weights of the statistics needs to be updated. 
